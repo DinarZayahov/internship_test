@@ -8,3 +8,4 @@ To install *dlib* on Windows 10:
 ```
 pip install dlib
 ```
+The *head_pose_estimation.py* is in *venv* folder.
