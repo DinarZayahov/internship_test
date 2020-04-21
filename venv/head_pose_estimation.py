@@ -17,6 +17,7 @@ model_points = np.array([
 dist_coeffs = np.zeros((4, 1))
 
 # Source-video can be video-file (pass file name as arg) or stream from a web camera (pass 0 as arg)
+# Better to use stream from web camera, it works a bit faster in this way :)
 cap = cv2.VideoCapture(0)
 
 while True:
