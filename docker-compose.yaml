@@ -1,0 +1,5 @@
+version: "3"
+
+services:
+  head_pose:
+    build: ./venv
